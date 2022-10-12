@@ -371,7 +371,7 @@ const Choose = () => {
                         <i className="fa fa-quote-left" aria-hidden="true"></i>
                         <p className="lh-lg">
                           IMST offers good Bachelors degree in Computers. Me and
-                          my classmate Rana are enjoy learning here a lot.{" "}
+                          my classmate Rana are enjoy learning here a lot.also there was very talented faculty{" "}
                         </p>
                         <i className="fa fa-quote-right" aria-hidden="true"></i>
                         <br></br>
