@@ -10,12 +10,14 @@ import Footer from './components/Footer';
 import Choose from './components/Choose';
 import Home from './components/Home';
 import Placement from './components/Placement';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
      
      <BrowserRouter>
+     <ScrollToTop>
      <Navbar/>
       
         <Routes>
@@ -29,6 +31,7 @@ function App() {
         </Routes>
         <Choose/>
         <Footer/>
+        </ScrollToTop>
       </BrowserRouter>
     </div>
   );
