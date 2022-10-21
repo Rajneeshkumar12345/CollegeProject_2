@@ -21,25 +21,30 @@ export default function Footer() {
                   {/* Grid column*/}
                   <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     {/* Content*/}
-                    <h6 className="text-uppercase  fw-bold">KALINGA UNIVERSITY</h6>
+                    <h6 className="text-uppercase  fw-bold">
+                      IMST
+                    </h6>
                     <hr
                       className="mt-0 d-inline-block mx-auto"
                       style={{
-                        width: "200px",
+                        width: "80px",
                         backgroundColor: " #7c4dff",
                         height: "2px",
                       }}
                     />
                     {/* <br></br> */}
-                    <img
+                  <p>
+                  <img
                       src="IMST_LOGO.png"
                       height="50"
                       width="50"
                       alt="photo"
                       className=""
+                      
                     />
-                    <p className="footer_content">
-                      Here you can use rows and columns to organize your footer
+                  </p>
+                    <p className="footer_content">                    
+                     Here you can use rows and columns to organize your footer
                       content. Lorem ipsum dolor sit amet, consectetur
                       adipisicing elit.
                     </p>
@@ -48,7 +53,7 @@ export default function Footer() {
 
           Grid column*/}
 
-<div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     {/*Links */}
                     <h6 className="text-uppercase fw-bold">Menu</h6>
                     <hr
@@ -81,7 +86,6 @@ export default function Footer() {
                     </p>
                   </div>
 
-
                   <div className="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
                     {/* <!-- Links --> */}
                     <h6 className="text-uppercase fw-bold">Privacy</h6>
@@ -95,12 +99,12 @@ export default function Footer() {
                     />
                     <p>
                       <a href="/Product" className="text-white">
-                      Privacy Policy
+                        Privacy Policy
                       </a>
                     </p>
                     <p>
                       <a href="/Product" className="text-white">
-                       Term and Conditions
+                        Term and Conditions
                       </a>
                     </p>
                     <p>
@@ -108,13 +112,11 @@ export default function Footer() {
                         Refund Policy
                       </a>
                     </p>
-                   
-                   
                   </div>
                   {/*  Grid column 
 
           Grid column*/}
-          
+
                   {/* Grid column
 
            Grid column */}
@@ -130,16 +132,15 @@ export default function Footer() {
                       }}
                     />
                     <p>
-                      <i className="fas fa-home mr-3"></i> New Delhi, NY 10012,
-                      INDIA
+                      <i className="fas fa-home mr-3"></i> D-1, Bareja Tower,
+                      Main Mathura Road, Badarpur, New Delhi - 110044
                     </p>
                     <p>
                       <i className="fas fa-envelope mr-3"></i>{" "}
-                      admissions@kalinga.ac.in                   
-                       </p>
+                      info@imstdelhi.org
+                    </p>
                     <p>
-                      <i className="fas fa-phone mr-3"></i> + 9196200
-                      98499/98288
+                      <i className="fas fa-phone mr-3"></i> +91-8285 148778
                     </p>
                     {/* <p>
                       <i className="fas fa-print mr-3"></i>Please Write Company
@@ -156,37 +157,24 @@ export default function Footer() {
             >
               © 2022 Copyright:-
               <a className="text-white" href="https://mdbootstrap.com/">
-              Kalinga University, Raipur
-              </a><br></br>
+                IMST, Badarpur, New Delhi
+              </a>
+              <br></br>
               Developed by:-
-              <a className="text-white" href="https://codelovertechnology.com/" target="_blank">
+              <a
+                className="text-white"
+                href="https://codelovertechnology.com/"
+                target="_blank"
+              >
                 CodeLover Technology Pvt. Ltd.
               </a>
-
             </div>
-
-            {/* About developer company */}
-            {/* <div
-              className="text p-1"
-              style={{
-                backgroundColor: "rgba(178, 166, 172, 0.8)",
-                textAlign: "right",
-              }}
-            >
-           
-            </div> */}
           </footer>
         </div>
       </div>
     </>
   );
 }
-
-
-
-
-
-
 
 // import React from 'react'
 

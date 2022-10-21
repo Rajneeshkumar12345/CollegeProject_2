@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg fixed-top navbar-light " style={{backgroundColor:"#193869"}}>
   <div className="container-fluid " >
   {/* style={{marginLeft:"10px", fontWeight:"bold", textColor:"#d9d4c7"}} */}
-    <a className="navbar-brand " href="/About" >
+    <a className="navbar-brand " href="/" >
       <img src='IMST_LOGO.png' width="70" height="60" alt='logo'/>
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,9 +22,7 @@ const Navbar = () => {
         <Link to="/Courses" className='about_color'>COURSES</Link>
         </li>
 
-        {/* <li className="nav-item  nav-link">
-        <Link to="/Instructions">INSTRUCTIONS</Link>
-        </li> */}
+
 
         <li className="nav-item nav-link">
         <Link to="/PLACEMENT" className='about_color'>PLACEMENTS</Link>

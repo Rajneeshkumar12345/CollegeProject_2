@@ -1,4 +1,10 @@
 
+.App{
+ max-width: 100%;
+ Margin-left: 0;
+ Margin-right: 0;
+}
+
 #contatti{
   background-color: #70c3be;
   letter-spacing: 2px;
@@ -68,6 +74,9 @@ body {
   background: #FFF;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  max-width: 100%;
+  overflow-x: hidden;
+
 }
  
 .wrapper {
@@ -282,3 +291,6 @@ h1.heading {
 .table_color_first{
   backgroundColor:rgba(112, 167, 176, 1);
 }
+
+
+

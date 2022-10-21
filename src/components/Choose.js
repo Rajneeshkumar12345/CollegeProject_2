@@ -8,13 +8,10 @@ const Choose = () => {
   return (
     <>
         {/* 1st card wrapper */}
-      <section className="wrapper " style={{ backgroundColor: "#130b75" }}>
+      {/* <section className="wrapper " style={{ backgroundColor: "#130b75" }}>
         <div className="container-fostrap">
           <div>
-            {/* <img
-              src="https://4.bp.blogspot.com/-7OHSFmygfYQ/VtLSb1xe8kI/AAAAAAAABjI/FxaRp5xW2JQ/s320/logo.png"
-              className="fostrap-logo"
-            /> */}
+           
             <h1 className="heading text-white">Our Popular Courses</h1>
           </div>
           <div className="content">
@@ -70,12 +67,7 @@ const Choose = () => {
                       <Link to="/Courses" className="btn btn-link btn-block">
                         Read more
                       </Link>
-                      {/* <a
-                        href="https://codepen.io/wisnust10/full/ZWERZK/"
-                        className="btn btn-link btn-block"
-                      >
-                        Read More
-                      </a> */}
+                    
                     </div>
                   </div>
                 </div>
@@ -105,12 +97,7 @@ const Choose = () => {
                       <Link to="/Courses" className="btn btn-link btn-block">
                         Read more
                       </Link>
-                      {/* <a
-                        href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        className="btn btn-link btn-block"
-                      >
-                        Read More
-                      </a> */}
+                   
                     </div>
                   </div>
                 </div>
@@ -118,11 +105,11 @@ const Choose = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 2nd Card Wrapper */}
 
-      <section className="wrapper" style={{ backgroundColor: "#130b75" }}>
+      {/* <section className="wrapper" style={{ backgroundColor: "#130b75" }}>
         <div className="container-fostrap">
           <div className="content">
             <div className="choose">
@@ -155,12 +142,7 @@ const Choose = () => {
                       <Link to="/Courses" className="btn btn-link btn-block">
                         Read more
                       </Link>
-                      {/* <a
-                        href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"
-                        className="btn btn-link btn-block"
-                      >
-                        Read More
-                      </a> */}
+                      
                     </div>
                   </div>
                 </div>
@@ -190,12 +172,7 @@ const Choose = () => {
                       </p>
                     </div>
                     <div className="card-read-more">
-                      {/* <a
-                        href="https://codepen.io/wisnust10/full/ZWERZK/"
-                        className="btn btn-link btn-block"
-                      >
-                        Read More
-                      </a> */}
+                      
                       <Link to="/Courses" className="btn btn-link btn-block">
                         Read more
                       </Link>
@@ -230,12 +207,7 @@ const Choose = () => {
                       <Link to="/Courses" className="btn btn-link btn-block">
                         Read more
                       </Link>
-                      {/* <a
-                        href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        className="btn btn-link btn-block"
-                      >
-                        Read More
-                      </a> */}
+                      
                     </div>
                   </div>
                 </div>
@@ -243,7 +215,7 @@ const Choose = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* why choose us */}
 

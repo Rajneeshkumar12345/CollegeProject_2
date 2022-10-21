@@ -12,7 +12,7 @@ const About = () => {
           <div className="py-3">
             <div className="row">
               {/* First container of about */}
-              <div className="col-6 mb-3 mb-lg-0 mt-4">
+              <div className="col-md-6 col-sm-12 mb-3 mb-lg-0 mt-4">
                 <div className="hover hover-4 text-white rounded ">
                   <img
                     src="https://bootstrapious.com/i/snippets/sn-img-hover/hoverSet-7.jpg"
@@ -36,12 +36,12 @@ const About = () => {
                 </div>
               </div>
               <div
-                className="col-6 mb-3 mb-lg-0 text-white"
+                className="col-md-6 col-sm-12 mb-3 mb-lg-0 text-white"
                 style={{ marginTop: "80px" }}
               >
-                Our mission is also to make quality management education
+                Our mission is also to make quality  education
                 accessible to all by providing world class education and
-                training in Hospitality Management by constantly innovating and
+                training in IT skills by constantly innovating and
                 improving upon the discipline through state of art methods of
                 training.
               </div>
@@ -50,16 +50,16 @@ const About = () => {
             {/* Ssecond container of about */}
             <div className="row mt-5">
               <div
-                className="col-6 mb-3 mb-lg-0 text-white"
+                className="col-md-6 col-sm-12 mb-3 mb-lg-0 text-white"
                 style={{ marginTop: "70px" }}
               >
                 To create a world renowned technical education Centre imparting
-                management and technical knowledge catering to the needs of the
-                changing scenario of the Hospitality world besides contributing
-                in the fields of Hospitality and customer service.
+                technical knowledge catering to the needs of the
+                changing scenario of the technical world besides contributing
+                in the fields of Technical and communication skills.
               </div>
               {/* About Item */}
-              <div className="col-6 mb-3 mb-lg-0">
+              <div className="col-md-6 col-sm-12 mb-3 mb-lg-0">
                 <div className="hover hover-4 text-white rounded">
                   <img
                     src="https://bootstrapious.com/i/snippets/sn-img-hover/hoverSet-8.jpg"
@@ -95,13 +95,13 @@ const About = () => {
             <span style={{color:"#f277b4"}}>(The Best College of Computer Sceince and Information Technology)</span>
           </div>
           <div className="Main-content text-white">
-            We are affiliated Training Partner of Tourism & Hospitality Skill
+            We are affiliated Training Partner of technical and soft Skill
             Council, National Skill Development Corporation under Ministry of
             Skill Development and Entrepreneurship, Govt. of India. IMST is also
             authorized Admission and Facilitation Center of Dy Patil University,
-            Navi Mumbai for Hotel management courses. <br></br><br></br>
-            We welcome to the world of Hospitality, Travel and Aviation. The
-            Hospitality and Tourism industry is one of the fastest growing
+            Navi Mumbai for Information Technology courses. <br></br><br></br>
+            We welcome to the world of Technical, Travel and Aviation. The
+            Information Technology and Soft skills is one of the fastest growing
             industries in the world, hence the requirement of the skilled human
             resource is enormous. Total contribution by the travel and tourism
             sector to india’s GDP is expected to increase from Rs. 15.24
@@ -120,7 +120,7 @@ const About = () => {
             should be driven by the desire of what student wants to do. Days are
             gone when priority was given to traditional courses; now there is a
             perceptible shift by students in adopting non-conventional courses.
-            At IHMCS, We focus on enhancing the learning experience of our
+            At IMST, We focus on enhancing the learning experience of our
             students through regular practical, assignments, workshops and
             various extracurricular activities. The ideal mix of hands-on
             training along with the world-class curriculum designed by
@@ -135,7 +135,7 @@ const About = () => {
             interview preparation by guest faculties and industry experts. The
             appreciations we receive for our students from the industry motivate
             us to deliver quality education consistently. We make sure that the
-            learning experience at IHMCS is exciting, colourful and challenging,
+            learning experience at IMST is exciting, colourful and challenging,
             yet also an enriching experience.
           </div>
         </div>

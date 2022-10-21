@@ -7,7 +7,7 @@ import Gallary from './components/Gallary';
 import Events from './components/Events';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Choose from './components/Choose';
+// import Choose from './components/Choose';
 import Home from './components/Home';
 import Placement from './components/Placement';
 import ScrollToTop from './components/ScrollToTop';
@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/Events" element={<Events/>}></Route>
           <Route exact path="/Contact" element={<Contact/>}></Route>
         </Routes>
-        <Choose/>
+        {/* <Choose/> */}
         <Footer/>
         </ScrollToTop>
       </BrowserRouter>
