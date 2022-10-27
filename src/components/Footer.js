@@ -44,9 +44,9 @@ export default function Footer() {
                     />
                   </p>
                     <p className="footer_content">                    
-                     Here you can use rows and columns to organize your footer
-                      content. Lorem ipsum dolor sit amet, consectetur
-                      adipisicing elit.
+                    Our mission is also to make quality education
+                accessible to all by providing world class education and
+                training in IT skills.
                     </p>
                   </div>
                   {/*  Grid column
@@ -75,7 +75,7 @@ export default function Footer() {
                       </a>
                     </p>
                     <p>
-                      <a href="/Product" className="text-white">
+                      <a href="/Courses" className="text-white">
                         Our courses
                       </a>
                     </p>
@@ -140,7 +140,7 @@ export default function Footer() {
                       info@imstdelhi.org
                     </p>
                     <p>
-                      <i className="fas fa-phone mr-3"></i> +91-8285 148778
+                      <i className="fas fa-phone mr-3"></i> +91 9289691226
                     </p>
                     {/* <p>
                       <i className="fas fa-print mr-3"></i>Please Write Company

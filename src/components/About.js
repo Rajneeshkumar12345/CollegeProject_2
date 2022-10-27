@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div
         className="About"
-        style={{ marginTop: "5rem", backgroundColor: "#06769e" }}
+        style={{ marginTop: "0rem", backgroundColor: "#06769e" }}
       >
         <div className="container ">
           <div className="py-3">

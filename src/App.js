@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import About from './components/About';
 import Courses from './components/Courses';
 import Gallary from './components/Gallary';
@@ -28,6 +28,7 @@ function App() {
           <Route exact path="/Gallary" element={<Gallary/>}></Route>
           <Route exact path="/Events" element={<Events/>}></Route>
           <Route exact path="/Contact" element={<Contact/>}></Route>
+          <Route exact path="*" element={<Navigate to="/"/>}></Route>
         </Routes>
         {/* <Choose/> */}
         <Footer/>

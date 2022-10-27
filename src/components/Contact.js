@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="row" id="contatti" style={{ marginTop: "3rem" }}>
-        <div className="container mt-5">
+      <div className="row" id="contatti" style={{ marginTop: "0rem" }}>
+        <div className=" mt-5">
           <div className="row" style={{ height: "550px" }}>
             <div className="col-md-6 maps" style={{ marginTop: "25px" }}>
               <iframe
@@ -103,19 +103,19 @@ const Contact = () => {
               </form>
               <div className="text-white">
                 <h2 className="text-uppercase mt-4 font-weight-bold">
-                  Kalinga University, Raipur
+                  IMST
                 </h2>
                 <i className="fas fa-phone mt-3"></i>{" "}
-                <a href="tel:+">(+913456123456</a>
+                <a href="tel:+">(+91 9289691226)</a>
                 <br></br>
-                <i className="fas fa-phone mt-3"></i>{" "}
+                {/* <i className="fas fa-phone mt-3"></i>{" "}
                 <a href="tel:+">(+916794123456</a>
-                <br></br>
+                <br></br> */}
                 <i className="fa fa-envelope mt-3"></i>{" "}
                 <a href="">info@test.it</a>
                 <br></br>
-                <i className="fas fa-globe mt-3"></i> Address first<br></br>
-                <i className="fas fa-globe mt-3"></i> Address second<br></br>
+                <i className="fas fa-globe mt-3"></i>  D-1, Bareja Tower, Main Mathura Road, Badarpur, New Delhi - 110044<br></br>
+                {/* <i className="fas fa-globe mt-3"></i> Address second<br></br> */}
                 <div className="my-4">
                   <a href="">
                     <i className="fab fa-facebook fa-3x pr-4"></i>
@@ -132,7 +132,7 @@ const Contact = () => {
 
       <div className="row text-center bg-success text-white" id="author">
         <div className="col-12 mt-4 h3 ">
-          <a href="#">Kalinga University, Raipur</a>
+          <a href="#">Institute of Management Science and Technology ( IMST )</a>
         </div>
         <div className="col-12 my-2">
           <a

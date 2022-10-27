@@ -1,9 +1,74 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 const Navbar = () => {
   return (
     <>
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light " style={{backgroundColor:"#193869"}}>
+    {/* <div className="nav">
+      hiii
+    </div> */}
+
+<section
+            className="d-flex justify-content-between p-2 text-white"
+            style={{ backgroundColor: " #21D192" }}
+          >
+            <div className="me-5 ms-5">
+              <a
+                href="https://www.facebook.com/CodeLoverTech/"
+                target="_blank"
+                className="text-white me-4"
+              >
+                <WhatsAppIcon fontSize="medium"/>{" "}
+                <a href="tel:+" className='text-dark'>(+91 9289691226)</a>
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://www.facebook.com/CodeLoverTech/"
+                target="_blank"
+                className="text-white me-4"
+              >
+                <FacebookOutlinedIcon fontSize="medium" />
+              </a>
+              <a
+                href="https://twitter.com/infoRajInfotech"
+                target="_blank"
+                className="text-white me-4"
+              >
+                <TwitterIcon  fontSize="medium"/>
+              </a>
+
+              <a
+                href="https://www.instagram.com/codelovertechnology/?hl=en"
+                target="_blank"
+                className="text-white me-4"
+              >
+                <InstagramIcon  fontSize="medium"/>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/codelover-technology-810724151/"
+                target="_blank"
+                className="text-white me-4"
+              >
+                <LinkedInIcon  fontSize="medium"/>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/codelover-technology-810724151/"
+                target="_blank"
+                className="text-white me-4"
+              >
+                <YouTubeIcon  fontSize="medium"/>
+              </a>
+            </div>
+          </section>
+    <nav className="navbar navbar-expand-lg  navbar-light " style={{backgroundColor:"#193869"}}>
   <div className="container-fluid " >
   {/* style={{marginLeft:"10px", fontWeight:"bold", textColor:"#d9d4c7"}} */}
     <a className="navbar-brand " href="/" >
