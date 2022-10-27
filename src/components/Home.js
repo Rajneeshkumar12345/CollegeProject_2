@@ -89,31 +89,31 @@ const Home = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
-             <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
-             <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="4"
             aria-label="Slide 5"
           ></button>
-             <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="5"
             aria-label="Slide 6"
           ></button>
-             <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="6"
             aria-label="Slide 7"
           ></button>
-             <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="7"
@@ -122,7 +122,12 @@ const Home = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/Slider1.png" className="d-block w-100" alt="image1" height="565" />
+            <img
+              src="/Slider1.png"
+              className="d-block w-100"
+              alt="image1"
+              height="565"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>
@@ -131,7 +136,12 @@ const Home = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="/Image1.png" className="d-block w-100" alt="image2" height="565"/>
+            <img
+              src="/Image1.png"
+              className="d-block w-100"
+              alt="image2"
+              height="565"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>
@@ -140,7 +150,12 @@ const Home = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="/Slider2.png" className="d-block w-100" alt="image3" height="565" />
+            <img
+              src="/Slider2.png"
+              className="d-block w-100"
+              alt="image3"
+              height="565"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
@@ -150,7 +165,12 @@ const Home = () => {
           </div>
 
           <div className="carousel-item">
-            <img src="/Slider3.jpg" className="d-block w-100" alt="image3" height="565" />
+            <img
+              src="/Slider3.jpg"
+              className="d-block w-100"
+              alt="image3"
+              height="565"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
@@ -160,7 +180,12 @@ const Home = () => {
           </div>
 
           <div className="carousel-item">
-            <img src="/Slider4.jpg" className="d-block w-100" alt="image3" height="565" />
+            <img
+              src="/Slider4.jpg"
+              className="d-block w-100"
+              alt="image3"
+              height="565"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
@@ -170,7 +195,12 @@ const Home = () => {
           </div>
 
           <div className="carousel-item">
-            <img src="/Slider5.jpg" className="d-block w-100" alt="image3" height="565" />
+            <img
+              src="/Slider5.jpg"
+              className="d-block w-100"
+              alt="image3"
+              height="565"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
@@ -180,7 +210,12 @@ const Home = () => {
           </div>
 
           <div className="carousel-item">
-            <img src="/Slider6.jpg" className="d-block w-100" alt="image3" height="565" />
+            <img
+              src="/Slider6.jpg"
+              className="d-block w-100"
+              alt="image3"
+              height="565"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
@@ -190,7 +225,12 @@ const Home = () => {
           </div>
 
           <div className="carousel-item">
-            <img src="/Slider7.jpg" className="d-block w-100" alt="image3" height="565" />
+            <img
+              src="/Slider7.jpg"
+              className="d-block w-100"
+              alt="image3"
+              height="565"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
@@ -205,7 +245,10 @@ const Home = () => {
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -214,7 +257,10 @@ const Home = () => {
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
@@ -247,19 +293,21 @@ const Home = () => {
                   &nbsp;
                   <br></br>
                   <p className="des">
-                  We are affiliated Training Partner of technical and soft Skill
-            Council, National Skill Development Corporation under Ministry of
-            Skill Development and Entrepreneurship, Govt. of India. IMST is also
-            authorized Admission and Facilitation Center of Dy Patil University,
-            Navi Mumbai for Information Technology courses. <br></br>
-            We welcome to the world of Technical, Travel and Aviation. The
-            Information Technology and Soft skills is one of the fastest growing
-            industries in the world, hence the requirement of the skilled human
-            resource is enormous. Total contribution by the travel and tourism
-            sector to india’s GDP is expected to increase from Rs. 15.24
-            trillion (US$ 234.03 billion) in 2017 to Rs. 32.05 trillion (US$
-            492.21 billion) in 2028. Overall employment in the industry is
-            expected to rise to 52.3 million jobs by 2028... 
+                    We are affiliated Training Partner of technical and soft
+                    Skill Council, National Skill Development Corporation under
+                    Ministry of Skill Development and Entrepreneurship, Govt. of
+                    India. IMST is also authorized Admission and Facilitation
+                    Center of Dy Patil University, Navi Mumbai for Information
+                    Technology courses. <br></br>
+                    We welcome to the world of Technical, Travel and Aviation.
+                    The Information Technology and Soft skills is one of the
+                    fastest growing industries in the world, hence the
+                    requirement of the skilled human resource is enormous. Total
+                    contribution by the travel and tourism sector to india’s GDP
+                    is expected to increase from Rs. 15.24 trillion (US$ 234.03
+                    billion) in 2017 to Rs. 32.05 trillion (US$ 492.21 billion)
+                    in 2028. Overall employment in the industry is expected to
+                    rise to 52.3 million jobs by 2028...
                   </p>
                   <ul className="social-icon">
                     <Link to="/About">
@@ -271,11 +319,18 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
-          <div className="embed-responsive embed-responsive-4by3" style={{marginTop:"7rem"}}>
-  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen></iframe>
-</div>
+            <div
+              className="embed-responsive embed-responsive-4by3"
+              style={{ marginTop: "7rem" }}
+            >
+              <iframe
+                className="embed-responsive-item"
+                src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                allowFullScreen
+              ></iframe>
+            </div>
             {/* <div className="row"> */}
-              {/* <div className="col-md-4 col-sm-12 mt-5">
+            {/* <div className="col-md-4 col-sm-12 mt-5">
                 <div className="cont">
                   {" "}
                   <a href="#">

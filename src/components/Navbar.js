@@ -68,7 +68,7 @@ const Navbar = () => {
               </a>
             </div>
           </section>
-    <nav className="navbar navbar-expand-lg  navbar-light " style={{backgroundColor:"#193869"}}>
+    <nav className="navbar navbar-expand-lg sticky-top navbar-light " style={{backgroundColor:"#193869"}}>
   <div className="container-fluid " >
   {/* style={{marginLeft:"10px", fontWeight:"bold", textColor:"#d9d4c7"}} */}
     <a className="navbar-brand " href="/" >

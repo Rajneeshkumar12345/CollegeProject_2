@@ -183,23 +183,28 @@ h1.heading {
 
 .line1{
   color:#000;
-  font-size:12px;
+  font-size:14px;
+
 
 }
  .line2{
   color:#000;
-  font-size:12px;
+  font-size:14px;
+ 
   
 }
  .line3{
   color:#000;
-  font-size:12px;
+  font-size:14px;
+  
+ 
 }
 
 .cards{
   transition: all 0.2s ease;
   cursor: pointer;
   color: #2945df;
+  
 
 }
 
