@@ -200,11 +200,9 @@ h1.heading {
   transition: all 0.2s ease;
   cursor: pointer;
   color: #2945df;
-  /* background-color: brown; */
+
 }
-/* .lovely {
-  background-color: #2945df;
-} */
+
 
   
 
@@ -216,7 +214,7 @@ h1.heading {
 
 
 
-/* testimonials components css */
+
 
 
 
@@ -227,7 +225,7 @@ h1.heading {
 
 }
 
-/* #080457 */
+
 
 
 .t-card {
@@ -249,7 +247,7 @@ h1.heading {
 
 
 
-/* courses container css */
+
 .Courses_container{
   text-align: justify;
   border-radius: 10px;
@@ -259,20 +257,19 @@ h1.heading {
   text-align: justify;
 }
   
-/* footer content css */
 
 .footer_content {
   text-align: justify;
 }
 
-/* navbar components css */
+
 
 .about_color{
   color:#fcfcfc;
   font-weight: bold;
 }
 
-/* Placement components css */
+
 
 .placement {
   margin-top: 5rem;
