@@ -297,11 +297,3 @@ h1.heading {
 
 
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky + .navbar {
-  padding-top: 60px;
-}

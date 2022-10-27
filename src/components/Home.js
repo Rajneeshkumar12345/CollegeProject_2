@@ -65,7 +65,7 @@ const Home = () => {
         id="carouselExampleCaptions"
         className="carousel slide"
         data-bs-ride="carousel"
-        data-interval="700"
+        data-interval="200"
         style={{ backgroundColor: "#3b27ba" }}
       >
         <div className="carousel-indicators">
