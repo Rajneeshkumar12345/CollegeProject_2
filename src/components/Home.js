@@ -247,12 +247,19 @@ const Home = () => {
                   &nbsp;
                   <br></br>
                   <p className="des">
-                    We are affiliated Training Partner of Tourism & Hospitality
-                    Skill Council, National Skill Development Corporation under
-                    Ministry of Skill Development and Entrepreneurship, Govt. of
-                    India. IMST is also authorized Admission and Facilitation
-                    Center of Dy Patil University, Navi Mumbai for Technical
-                    courses.
+                  We are affiliated Training Partner of technical and soft Skill
+            Council, National Skill Development Corporation under Ministry of
+            Skill Development and Entrepreneurship, Govt. of India. IMST is also
+            authorized Admission and Facilitation Center of Dy Patil University,
+            Navi Mumbai for Information Technology courses. <br></br>
+            We welcome to the world of Technical, Travel and Aviation. The
+            Information Technology and Soft skills is one of the fastest growing
+            industries in the world, hence the requirement of the skilled human
+            resource is enormous. Total contribution by the travel and tourism
+            sector to india’s GDP is expected to increase from Rs. 15.24
+            trillion (US$ 234.03 billion) in 2017 to Rs. 32.05 trillion (US$
+            492.21 billion) in 2028. Overall employment in the industry is
+            expected to rise to 52.3 million jobs by 2028... 
                   </p>
                   <ul className="social-icon">
                     <Link to="/About">

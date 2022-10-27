@@ -216,7 +216,7 @@ h1.heading {
 
 
 
-
+/* testmonial start here */
 
 .client {
   width: 100%;
@@ -292,3 +292,11 @@ h1.heading {
 
 
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .navbar {
+  padding-top: 60px;
+}
