@@ -63,17 +63,17 @@ const Home = () => {
 
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
         data-interval="700"
         style={{ backgroundColor: "#3b27ba" }}
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -120,28 +120,28 @@ const Home = () => {
             aria-label="Slide 8"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/Slider1.png" class="d-block w-100" alt="image1" height="565" />
-            <div class="carousel-caption d-none d-md-block">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src="/Slider1.png" className="d-block w-100" alt="image1" height="565" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>
                 Some representative placeholder content for the first slide.
               </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="/Image1.png" class="d-block w-100" alt="image2" height="565"/>
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="/Image1.png" className="d-block w-100" alt="image2" height="565"/>
+            <div className="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>
                 Some representative placeholder content for the second slide.
               </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="/Slider2.png" class="d-block w-100" alt="image3" height="565" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="/Slider2.png" className="d-block w-100" alt="image3" height="565" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
                 Some representative placeholder content for the third slide.
@@ -149,9 +149,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="carousel-item">
-            <img src="/Slider3.jpg" class="d-block w-100" alt="image3" height="565" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="/Slider3.jpg" className="d-block w-100" alt="image3" height="565" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
                 Some representative placeholder content for the third slide.
@@ -159,9 +159,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="carousel-item">
-            <img src="/Slider4.jpg" class="d-block w-100" alt="image3" height="565" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="/Slider4.jpg" className="d-block w-100" alt="image3" height="565" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
                 Some representative placeholder content for the third slide.
@@ -169,9 +169,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="carousel-item">
-            <img src="/Slider5.jpg" class="d-block w-100" alt="image3" height="565" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="/Slider5.jpg" className="d-block w-100" alt="image3" height="565" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
                 Some representative placeholder content for the third slide.
@@ -179,9 +179,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="carousel-item">
-            <img src="/Slider6.jpg" class="d-block w-100" alt="image3" height="565" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="/Slider6.jpg" className="d-block w-100" alt="image3" height="565" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
                 Some representative placeholder content for the third slide.
@@ -189,9 +189,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="carousel-item">
-            <img src="/Slider7.jpg" class="d-block w-100" alt="image3" height="565" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="/Slider7.jpg" className="d-block w-100" alt="image3" height="565" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
                 Some representative placeholder content for the third slide.
@@ -200,22 +200,22 @@ const Home = () => {
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
 
@@ -264,8 +264,8 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
-          <div class="embed-responsive embed-responsive-4by3" style={{marginTop:"7rem"}}>
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+          <div className="embed-responsive embed-responsive-4by3" style={{marginTop:"7rem"}}>
+  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen></iframe>
 </div>
             {/* <div className="row"> */}
               {/* <div className="col-md-4 col-sm-12 mt-5">
