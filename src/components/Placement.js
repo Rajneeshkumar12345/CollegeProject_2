@@ -57,6 +57,7 @@ const Placement = () => {
                 <tbody>
                   <tr className="info">
                     <td>Bharat Heavy Electricals Limited (BHEL)</td>
+                    
                     <td>Godrej </td>
                     <td>Havells India Ltd</td>
                     <td>Indian Oil Corporation </td>
