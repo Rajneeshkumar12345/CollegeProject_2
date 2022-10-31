@@ -30,6 +30,24 @@ const Navbar = () => {
             </div>
 
             <div>
+              {/* APPLY NOW BTN */}
+            <a
+                href="*"
+                target="_blank"
+                className="text-white me-4"
+              >
+                <button className='btn btn-info'>Apply Now</button>
+              </a>
+
+                {/* PAY NOW BTN */}
+              <a
+                href="*"
+                target="_blank"
+                className="text-white me-4"
+              >
+                <button  className='btn btn-info'>Pay Now</button>
+              </a>
+
               <a
                 href="https://www.facebook.com/CodeLoverTech/"
                 target="_blank"

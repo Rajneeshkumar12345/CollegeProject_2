@@ -264,171 +264,218 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <button
+        data-toggle="modal"
+        data-target="#myModal32"
+        class="trigger_popup border-0"
+      >
+        <span>Enquire Now</span>
+      </button>
 
+      {/* <div id="side-quick-links">
+          <ul>
+            <li class="call">
+              <div class="content">
+              <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <p class="big font-accident-one-bold"><a href="tel:+91-9907252100"> +91-9907252100</a></p>
+              </div>
+            </li>
+
+
+              
+          <li class="call">
+              <div class="content">
+              <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <p><a href="tel:+91-9109167129">+91-9109167129</a></p>
+              </div>
+            </li>
+
+            <li class="marker">
+              <div class="content">
+              <a href="javascript:void(0)"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                <p><a class="sociable" href="https://www.facebook.com/kalingauniversity/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="sociable" href="https://twitter.com/Kalingaraipur" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a class="sociable" href="https://www.linkedin.com/school/kalinga-university-raipur/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a class="sociable" href="https://www.youtube.com/channel/UC8yE0HOsSQZwOJTgQQUn3DQ" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </p>
+              </div>
+            </li>
+            <li class="watsapp">
+              <div class="content con">
+              <a href="https://api.whatsapp.com/send?phone=+91-7024125518&amp;text=I%27m%20interested%20in%20taking%20admission%20in%20Kalinga%20University." style={{color:"#fff", fontSize:"14px"}} target="_blank"><i class="fa fa-whatsapp heateor_sss_whatsapp_count" aria-hidden="true"></i></a>
+           <button data-toggle="modal" data-target="#myModal32" class="trigger_popup border-0"><span>Enquire Now</span></button> 
+        </div>
+    </li></ul></div> */}
       {/* faculty container one */}
 
       <div className=" faculty">
-        <div className="row">
-          <div className="col-md-6 col-sm-12">
-            <div className="card mt-3">
-              <div className="content">
-                <div className="front">
-                  <img
-                    className="profile "
-                    width="100%"
-                    src="/About_photo.png"
-                    height="650px"
-                    alt="About"
-                  />
-                </div>
-                <div className="back from-left">
-                  <h2>About me</h2>
-                  <img
-                    className="tem-img"
-                    src="IMST_LOGO.png"
-                    width="90"
-                    height="80"
-                    alt=""
-                  />{" "}
-                  &nbsp;
-                  <br></br>
-                  <p className="des ">
-                    We are affiliated Training Partner of technical and soft
-                    Skill Council, National Skill Development Corporation under
-                    Ministry of Skill Development and Entrepreneurship, Govt. of
-                    India. IMST is also authorized Admission and Facilitation
-                    Center of Dy Patil University, Navi Mumbai for Information
-                    Technology courses. <br></br>
-                    We welcome to the world of Technical, Travel and Aviation.
-                    The Information Technology and Soft skills is one of the
-                    {/* fastest growing industries in the world, hence the
-                    requirement of the skilled human resource is enormous. Total
-                    contribution by the travel and tourism sector to india’s GDP
-                    is expected to increase from Rs. 15.24 trillion (US$ 234.03
-                    billion) in 2017 to Rs. 32.05 trillion (US$ 492.21 billion)
-                    in 2028. Overall employment in the industry is expected to
-                    rise to 52.3 million jobs by 2028... */}
-                  </p>
-                  <ul className="social-icon">
-                    <Link to="/About">
-                      <button className="btn btn-primary">More About me</button>
-                    </Link>
-                  </ul>
+        <div className="container ">
+          <div className="row">
+            <div className="col-md-7 col-sm-12">
+              <div className="card mt-3 double_section">
+                <div className="container ">
+                  <div className="back from-left">
+                    <h2 className="text-center mt-3 text-white About_heading">
+                      About us
+                    </h2>
+                    {/* <img
+                      className="tem-img"
+                      src="IMST_LOGO.png"
+                      width="90"
+                      height="80"
+                      alt="Logo"
+                    />{" "}
+                    &nbsp; */}
+                    {/* <br></br> */}
+                    <p className="des mt-5 text-white">
+                      We are affiliated Training Partner of technical and soft
+                      Skill Council, National Skill Development Corporation
+                      under Ministry of Skill Development and Entrepreneurship,
+                      Govt. of India. IMST is also authorized Admission and
+                      Facilitation Center of Dy Patil University, Navi Mumbai
+                      for Information Technology courses. <br></br> <br></br>
+                      We welcome to the world of Technical, Travel and Aviation.
+                      The Information Technology and Soft skills is one of the
+                      fastest growing industries in the world, hence the
+                      requirement of the skilled human resource is enormous.
+                      Total contribution by the travel and tourism sector to
+                      india’s GDP is expected to increase from Rs. 15.24
+                      trillion (US$ 234.03 billion) in 2017 to Rs. 32.05
+                      trillion (US$ 492.21 billion) in 2028. Overall employment
+                      in the industry is expected to rise to 52.3 million jobs
+                      by 2028. The Government of India has set a target of 20
+                      million foreign tourist arrivals (FTAs) by 2020 and double
+                      the foreign exchange earnings as well. The launch of
+                      several branding and marketing initiatives by the
+                      Government of India such as ‘Incredible India!’ and
+                      ‘Atithi Devo Bhava’ has provided a focused impetus to
+                      growth. Under the ‘Swadesh Darshan Scheme’ 13 thematic
+                      Circuits have been selected for development of tourism
+                      infrastructure.
+                    </p>
+                    <div className="center ">
+                      <Link to="/About">
+                        <button className="btn btn-primary">
+                          More About me
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 col-sm-12">
-            <div
-              className="embed-responsive embed-responsive-4by3"
-              style={{ marginTop: "7rem" }}
-            >
-              <iframe
-                className="embed-responsive-item"
-                src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                allowFullScreen
-              ></iframe>
+            <div className="col-md-5 col-sm-12">
+              <div
+                className="embed-responsive embed-responsive-4by3"
+                style={{ marginTop: "12rem", marginBottom: "3rem" }}
+              >
+                <iframe
+                  className="embed-responsive-item"
+                  src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              {/* <div className="row"> */}
+              {/* <div className="col-md-4 col-sm-12 mt-5">
+               <div className="cont">
+                 {" "}
+                 <a href="#">
+                   <div className="content-overlay"></div>{" "}
+                   <img
+                     className="content-image"
+                     src="/Faculty1.jpg"
+                     height="250"
+                   />
+                   <div className="content-details fadeIn-bottom">
+                     <h3 className="content-title">Nisha Gulati</h3>
+                     <p className="content-text">H.O.D</p>
+                   </div>
+                 </a>{" "}
+               </div>
+             </div>
+             <div className="col-md-4 col-sm-12  mt-5">
+               <div className="cont">
+                 {" "}
+                 <a href="#">
+                   <div className="content-overlay"></div>{" "}
+                   <img
+                     className="content-image"
+                     src="/Faculty2.png"
+                     height="250"
+                   />
+                   <div className="content-details fadeIn-bottom">
+                     <h3 className="content-title">Madhu Chauhan</h3>
+                     <p className="content-text">Director - Admission</p>
+                   </div>
+                 </a>{" "}
+               </div>
+             </div>
+             <div className="col-md-4 col-sm-12  mt-5">
+               <div className="cont">
+                 {" "}
+                 <a href="#">
+                   <div className="content-overlay"></div>{" "}
+                   <img
+                     className="content-image"
+                     src="https://i.imgur.com/CS59IJZ.jpg"
+                   />
+                   <div className="content-details fadeIn-bottom">
+                     <h3 className="content-title">Mr. Suresh</h3>
+                     <p className="content-text">Web developer</p>
+                   </div>
+                 </a>{" "}
+               </div>
+             </div>
+             <div className="col-md-4 col-sm-12  mt-5 ">
+               <div className="cont">
+                 {" "}
+                 <a href="#">
+                   <div className="content-overlay"></div>{" "}
+                   <img
+                     className="content-image"
+                     src="https://i.imgur.com/CS59IJZ.jpg"
+                   />
+                   <div className="content-details fadeIn-bottom">
+                     <h3 className="content-title">Mr. Suresh</h3>
+                     <p className="content-text">Web developer</p>
+                   </div>
+                 </a>{" "}
+               </div>
+             </div>
+             <div className="col-md-4  col-sm-12  mt-5">
+               <div className="cont">
+                 {" "}
+                 <a href="#">
+                   <div className="content-overlay"></div>{" "}
+                   <img
+                     className="content-image"
+                     src="https://i.imgur.com/CS59IJZ.jpg"
+                   />
+                   <div className="content-details fadeIn-bottom">
+                     <h3 className="content-title">Mr. Suresh</h3>
+                     <p className="content-text">Web developer</p>
+                   </div>
+                 </a>{" "}
+               </div>
+             </div>
+             <div className="col-md-4 col-sm-12  mt-5">
+               <div className="cont">
+                 {" "}
+                 <a href="#">
+                   <div className="content-overlay"></div>{" "}
+                   <img
+                     className="content-image"
+                     src="https://i.imgur.com/CS59IJZ.jpg"
+                   />
+                   <div className="content-details fadeIn-bottom">
+                     <h3 className="content-title">Mr. Suresh</h3>
+                     <p className="content-text">Web developer</p>
+                   </div>
+                 </a>{" "}
+               </div>
+             </div> */}
+              {/* </div> */}
             </div>
-            {/* <div className="row"> */}
-            {/* <div className="col-md-4 col-sm-12 mt-5">
-                <div className="cont">
-                  {" "}
-                  <a href="#">
-                    <div className="content-overlay"></div>{" "}
-                    <img
-                      className="content-image"
-                      src="/Faculty1.jpg"
-                      height="250"
-                    />
-                    <div className="content-details fadeIn-bottom">
-                      <h3 className="content-title">Nisha Gulati</h3>
-                      <p className="content-text">H.O.D</p>
-                    </div>
-                  </a>{" "}
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-12  mt-5">
-                <div className="cont">
-                  {" "}
-                  <a href="#">
-                    <div className="content-overlay"></div>{" "}
-                    <img
-                      className="content-image"
-                      src="/Faculty2.png"
-                      height="250"
-                    />
-                    <div className="content-details fadeIn-bottom">
-                      <h3 className="content-title">Madhu Chauhan</h3>
-                      <p className="content-text">Director - Admission</p>
-                    </div>
-                  </a>{" "}
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-12  mt-5">
-                <div className="cont">
-                  {" "}
-                  <a href="#">
-                    <div className="content-overlay"></div>{" "}
-                    <img
-                      className="content-image"
-                      src="https://i.imgur.com/CS59IJZ.jpg"
-                    />
-                    <div className="content-details fadeIn-bottom">
-                      <h3 className="content-title">Mr. Suresh</h3>
-                      <p className="content-text">Web developer</p>
-                    </div>
-                  </a>{" "}
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-12  mt-5 ">
-                <div className="cont">
-                  {" "}
-                  <a href="#">
-                    <div className="content-overlay"></div>{" "}
-                    <img
-                      className="content-image"
-                      src="https://i.imgur.com/CS59IJZ.jpg"
-                    />
-                    <div className="content-details fadeIn-bottom">
-                      <h3 className="content-title">Mr. Suresh</h3>
-                      <p className="content-text">Web developer</p>
-                    </div>
-                  </a>{" "}
-                </div>
-              </div>
-              <div className="col-md-4  col-sm-12  mt-5">
-                <div className="cont">
-                  {" "}
-                  <a href="#">
-                    <div className="content-overlay"></div>{" "}
-                    <img
-                      className="content-image"
-                      src="https://i.imgur.com/CS59IJZ.jpg"
-                    />
-                    <div className="content-details fadeIn-bottom">
-                      <h3 className="content-title">Mr. Suresh</h3>
-                      <p className="content-text">Web developer</p>
-                    </div>
-                  </a>{" "}
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-12  mt-5">
-                <div className="cont">
-                  {" "}
-                  <a href="#">
-                    <div className="content-overlay"></div>{" "}
-                    <img
-                      className="content-image"
-                      src="https://i.imgur.com/CS59IJZ.jpg"
-                    />
-                    <div className="content-details fadeIn-bottom">
-                      <h3 className="content-title">Mr. Suresh</h3>
-                      <p className="content-text">Web developer</p>
-                    </div>
-                  </a>{" "}
-                </div>
-              </div> */}
-            {/* </div> */}
           </div>
         </div>
       </div>
@@ -455,14 +502,15 @@ const Home = () => {
                       <img src="Image1.png" />
                     </a>
                     <div className="card-content">
-                      <h3 className="card-title">Computer Science & IT</h3>
+                      <h3 className="card-title">
+                        Computer Science <br></br>& IT
+                      </h3>
                       <p className="text-justify">
                         The Faculty of Information Technology ( IT) is an active
                         and vibrant teaching and research centre with its focus
                         strongly on obtaining the best possible career outcomes
                         for its graduates.In an industry as dynamic as IT,
-                        students are placed at the forefront of modern
-                        technologies...
+                        students are placed at the forefront...
                       </p>
                     </div>
                     <div className="card-read-more">
@@ -489,7 +537,7 @@ const Home = () => {
                         departments and areas of business worldwide. Their
                         strong understanding of business environments and the
                         inner-workings of business processes, make them strong
-                        leadersin any institution, agency, or organization...
+                        leadersin any institution, agency...
                       </p>
                     </div>
                     <div className="card-read-more">
@@ -516,7 +564,7 @@ const Home = () => {
                     <div className="card-content">
                       <h4 className="card-title">
                         <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
-                          Master Of Computer Application
+                          Master Of Computer <br></br> Application
                         </a>
                       </h4>
                       <p className="">
@@ -572,8 +620,7 @@ const Home = () => {
                         semesters) Bachelor's Degree in Computer Application.
                         The basic objective of BCA Course is to provide young
                         men and women with the required knowledge and necessary
-                        skills to get rewarding careers into the changing world
-                        of Information Technology...
+                        skills...
                       </p>
                     </div>
                     <div className="card-read-more">
@@ -609,9 +656,7 @@ const Home = () => {
                         degree that provides theoretical and practical training
                         for business or investment management. An MBA is
                         designed to help graduates gain a better understanding
-                        of general business management functions. A master's
-                        degree in Business Administration involves the study of
-                        management...
+                        of general business...
                       </p>
                     </div>
                     <div className="card-read-more">
@@ -627,7 +672,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-4">
+                {/* <div className="col-xs-12 col-sm-4">
                   <div className="card">
                     <a
                       className="img-card"
@@ -647,23 +692,16 @@ const Home = () => {
                         of engineering and technology. The course is designed to
                         develop the technical skills of aspirants who wish the
                         work in the core technology and development
-                        sector.B.Tech comprises both theoretical and practical
-                        knowledge...
+                        sector.B.Tech comprises both...
                       </p>
                     </div>
                     <div className="card-read-more">
                       <Link to="/Courses" className="btn btn-link btn-block">
                         Read more
                       </Link>
-                      {/* <a
-                        href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        className="btn btn-link btn-block"
-                      >
-                        Read More
-                      </a> */}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

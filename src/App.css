@@ -297,3 +297,34 @@ h1.heading {
 
 
 
+/* COURSES CSS HERE */
+
+
+.course_heading{
+  font-size: 50px;
+  font-weight: 700;
+}
+.BCA{
+  font-size: 30px;
+  font-weight: 600;
+  color: #70c3be;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .table_data{
+  width: 612px;
+  height: 21px;
+ }
+
+ .table_heading{
+  width: 510px;
+  height: 21px;
+ }
+
+ .table_row{
+  height: 21px;
+ }
+
+ .perspective{
+  text-align: justify;
+ }

@@ -1,227 +1,565 @@
 import React from "react";
+//
 
 const Courses = () => {
   return (
     <>
       <div
-        className="couse"
-        style={{ backgroundColor: "rgba(0, 0, 88, 0.87)" }}
+        className="courses"
+        style={{ backgroundColor: "rgba(128, 120, 120, 0.88)" }}
       >
-        <div
-          id="carouselExampleControls"
-          className="carousel slide"
-          data-bs-ride="carousel"
-          data-interval="900"
-          style={{ backgroundColor: "#fffffc" }}
-        >
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img
-                src="/Slider1.png"
-                className="d-block w-100"
-                height="565"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item img-fluid">
-              <img
-                src="/Image1.png"
-                className="d-block w-100 "
-                height="565"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item img-fluid">
-              <img
-                src="/Slider2.png"
-                className="d-block w-100"
-                height="565"
-                alt="..."
-              />
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
+        <h2 className="text-center course_heading py-3"> About Courses</h2>
 
-        <div
-          className="container Courses_container square border border-5"
-          style={{ backgroundColor: "rgba(128, 120, 120, 0.88)" }}
-        >
-          <div className=" d-grid name py-5">
-            <button className="btn btn-primary">
-              {" "}
-              ABOUT{" "}
-              <span
-                style={{ color: "rgba(106, 4, 126, 0.81)", fontWeight: "bold" }}
-              >
-                IMST
-              </span>
-            </button>
-          </div>
-          <div className="about_college text-white">
-            We are affiliated Training Partner of technical and soft Skill
-            Council, National Skill Development Corporation under Ministry of
-            Skill Development and Entrepreneurship, Govt. of India. IMST is also
-            authorized Admission and Facilitation Center of Dy Patil University,
-            Navi Mumbai for Information Technology courses. <br></br>
-            <br></br>
-            We welcome to the world of Technical, Travel and Aviation. The
-            Information Technology and Soft skills is one of the fastest growing
-            industries in the world, hence the requirement of the skilled human
-            resource is enormous. Total contribution by the travel and tourism
-            sector to india’s GDP is expected to increase from Rs. 15.24
-            trillion (US$ 234.03 billion) in 2017 to Rs. 32.05 trillion (US$
-            492.21 billion) in 2028. Overall employment in the industry is
-            expected to rise to 52.3 million jobs by 2028. The Government of
-            India has set a target of 20 million foreign tourist arrivals (FTAs)
-            by 2020 and double the foreign exchange earnings as well. The launch
-            of several branding and marketing initiatives by the Government of
-            India such as ‘Incredible India!’ and ‘Atithi Devo Bhava’ has
-            provided a focused impetus to growth. Under the ‘Swadesh Darshan
-            Scheme’ 13 thematic Circuits have been selected for development of
-            tourism infrastructure.<br></br>
-            <br></br>
-            Goal-oriented students who know where they are heading in life can
-            settle into an exciting, lucrative career. Choosing a career path
-            should be driven by the desire of what student wants to do. Days are
-            gone when priority was given to traditional courses; now there is a
-            perceptible shift by students in adopting non-conventional courses.
-            At IMST, We focus on enhancing the learning experience of our
-            students through regular practical, assignments, workshops and
-            various extracurricular activities. The ideal mix of hands-on
-            training along with the world-class curriculum designed by
-            academicians and industry practitioners will provide our students
-            knowledge and insights needed to be successful in this challenging
-            world. Our exceptional and highly skilled academic staff focus on
-            the personal growth and development of each student by incorporating
-            teamwork and collaboration with numerous activities and events.
-            <br></br>
-            <br></br>
-            We also polish our students and make them employable by providing
-            various sessions on communication, personality development and
-            interview preparation by guest faculties and industry experts. The
-            appreciations we receive for our students from the industry motivate
-            us to deliver quality education consistently. We make sure that the
-            learning experience at IMST is exciting, colourful and challenging,
-            yet also an enriching experience.
+        <div className="container">
+          {/* BCA SECTION START HERE */}
+          <img
+            src="BCA3.jpg"
+            className="col-md-12 col-sm-12"
+            height="350"
+          ></img>
+          <div className="row">
+            <div className="col-md-6 col-sm-12">
+              <div class="photo-widget-full">
+                <div class="figure">
+                  <h2 className="text-center mt-5 BCA">
+                    BCA Course Highlights
+                  </h2>
+                  <p className="text-white">
+                    The tabulated data below represents some major highlights of
+                    the course.
+                  </p>
+                  <table
+                    class="table table-striped style_table"
+                    style={{ height: "189px" }}
+                    width="510"
+                  >
+                    <tbody>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Course Level</strong>
+                        </td>
+                        <td className="text-white  table_data">
+                          Undergraduate
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Duration</strong>
+                        </td>
+                        <td className="text-white table_data">3 years</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Examination Type</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Semester System
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Eligibility</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Class 12 from a recognized university
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Admission Process</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Direct Admission
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Top recruiting organizations</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          IT &amp; Software Companies
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Top recruiting areas</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Software Development, Testing, Digital Marketing, etc.
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong> Course Fee</strong>
+                        </td>
+                        <td className="text-white table_data">40k / sem</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Average Starting Salary</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Rs 2 to 8 lacs
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12">
+              <h2 className="text-center mt-5 BCA">
+                Career{" "}
+                <span style={{ color: "rgba(11, 5, 180, 0.8)" }}>
+                  Prospects
+                </span>
+              </h2>
+              <div className="perspective text-white">
+                <br></br>
+                <p>
+                  The IT industry is growing rapidly and with this, the demand
+                  for BCA graduates, too, is increasing every passing day. After
+                  obtaining a BCA degree, students can find lucrative job
+                  opportunities in leading IT companies such as Oracle, IBM,
+                  Infosys, and Wipro. Some of the roles that one can bag after
+                  completing a BCA programme is that of a System engineer,
+                  software tester, junior programmer, web developer, system
+                  administrator, software developer, etc.
+                </p>
+                <br></br>
+                <p>
+                  BCA graduates are not only recruited by the private sector but
+                  also by public sector organisations. Government organisations
+                  like the Indian Air Force(IAF), Indian Army, and India Navy
+                  also hire a large bunch of computer professionals for their IT
+                  department.
+                </p>
+                <br></br>
+                <p>
+                  As far as the salary is concerned, a fresher working for a
+                  leading MNC might get a salary ranging from Rs. 25,000 to Rs.
+                  40,000 per month. However, it was reported that IT giants like
+                  Facebook, Microsoft, etc pay a six-figure salary to a fresh
+                  graduate.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div className="table-responsive mt-5" >
-            <table className="table table-bordered tablecener my-5">
-              <thead>
-                <tr>
-                  <th style={{ width: "80px", textAlign: "center" }}>S. NO.</th>
-                  <th>Program</th>
-                  <th>Duration</th>
-                  <th>Mode</th>
-                  <th>Eligibility</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="text-white">
-                  <td>01.</td>
-                  <td>B. Tech.</td>
-                  <td>4 Years</td>
-                  <td>Semester</td>
-                  <td className="text-white">
-                    <p>
-                      Passed 10+2 examination with Physics/ Mathematics
-                      /Chemistry / Computer Science / Electronics / Information
-                      Technology / Biology / Informatics Practices /
-                      Biotechnology / Technical Vocational subject / Agriculture
-                      / EngineeringGraphics/ Business Studies /
-                      Entrepreneurship. <strong>(Any of the three)</strong>
-                    </p>
-                    <p>
-                      Obtained at least 45% marks (40% marks in case of
-                      candidates belonging to reserved category) in the above
-                      subjects taken together.
-                    </p>
-                    <p>
-                      <strong>OR</strong>
-                    </p>
-                    <p>
-                      Passed min. 3 years Diploma examination with at least 45%
-                      marks (40% marks in case of candidates belonging to
-                      reserved category) subject to vacancies in the First Year,
-                      incase the vacancies at lateral entry are exhausted. (The
-                      Universities will offer suitable bridge courses such as
-                      Mathematics, Physics, Engineering drawing, etc., for the
-                      students coming from diverse backgrounds to achieve
-                      desired learning outcomes of the programme).
-                    </p>
-                  </td>
-                </tr>
-                <tr className="text-white">
-                  <td>02.</td>
-                  <td>B. Tech (Lateral Entry)</td>
-                  <td>3 Years</td>
-                  <td>Semester</td>
-                  <td className="text-white">
-                    Passed Diploma Examination from an AICTE approved
-                    Institution; with at least 45% marks (40% in case of
-                    candidates belonging to reserved category) in appropriate
-                    branch of Engineering / Technology. Passed B.Sc. Degree from
-                    a recognized university as defined by UGC, with at least 45%
-                    marks (40% in case of candidates belonging to reserved
-                    category) and passed XII standard with mathematics as a
-                    subject. Provided that in case of students belonging to
-                    B.Sc. Steam, shall clear the subjects of Engineering
-                    Graphics / Engineering Drawing and Engineering Mechanics of
-                    the first year Engineering program along with the Second
-                    year subjects.
-                  </td>
-                </tr>
-                <tr className="text-white">
-                  <td>03.</td>
-                  <td>BBA</td>
-                  <td>3 Years</td>
-                  <td>Semester</td>
-                  <td>
-                    10+2 PCM/ITI (3 years) / 3 years Vocational Course in
-                    Relevant Trade/ 3 year Apprenticeship
-                  </td>
-                </tr>
-                <tr className="text-white">
-                  <td>04.</td>
-                  <td>BCA</td>
-                  <td>3 Years</td>
-                  <td>Semester</td>
-                  <td>BCA in Relevant Subject</td>
-                </tr>
-                <tr className="text-white">
-                  <td>05.</td>
-                  <td>MCA</td>
-                  <td>2 Years</td>
-                  <td>Semester</td>
-                  <td>MCA in Relevant Subject</td>
-                </tr>
-                <tr className="text-white">
-                  <td>06.</td>
-                  <td>MBA</td>
-                  <td>3 Years</td>
-                  <td>Semester</td>
-                  <td>MBA in Relevant Subject</td>
-                </tr>
-              </tbody>
-            </table>
+          {/* MCA SECTION STARY HERE */}
+          <img
+            src="MCA3.webp"
+            className="col-md-12 col-sm-12"
+            height="350"
+          ></img>
+          <div className="row">
+            <div className="col-md-6 col-sm-12">
+              <div class="photo-widget-full">
+                <div class="figure">
+                  <h2 className="text-center mt-5 BCA">
+                    MCA Course Highlights
+                  </h2>
+                  <p className="text-white">
+                    The tabulated data below represents some major highlights of
+                    the course.
+                  </p>
+                  <table
+                    class="table table-striped style_table"
+                    style={{ height: "189px" }}
+                    width="510"
+                  >
+                    <tbody>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Course Level</strong>
+                        </td>
+                        <td className="text-white  table_data">Postgraduate</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Duration</strong>
+                        </td>
+                        <td className="text-white table_data">2 years</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Examination Type</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Semester System
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Eligibility</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Undergraduate from a recognized university
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Admission Process</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Direct Admission
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Top recruiting organizations</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          IT &amp; Software Companies
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Top recruiting areas</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Software Development, Testing, Digital Marketing, etc.
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong> Course Fee</strong>
+                        </td>
+                        <td className="text-white table_data">40k / sem</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Average Starting Salary</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Rs 2 to 10 lacs
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12">
+              <h2 className="text-center mt-5 BCA">
+                Career{" "}
+                <span style={{ color: "rgba(11, 5, 180, 0.8)" }}>
+                  Prospects
+                </span>
+              </h2>
+              <div className="perspective text-white">
+                <br></br>
+                <p>
+                  MCA course will give students an understanding about how to
+                  develop better computer applications and software. There are a
+                  lot of career opportunities associated with MCA, and students
+                  may have great employment options in top IT firms, MNCs and
+                  top consultancy firms.
+                </p>
+                <br></br>
+                <p>
+                  Candidate with high computer skills are in high demand in the
+                  IT sector. And MCA graduates will also have many opportunities
+                  associated with the government sector. Candidates can crack
+                  interviews and get the desired profiles as per their skills
+                  and caliber. Candidates can get jobs in areas such as banking,
+                  networking, IT companies, desktop publishing, and more.
+                </p>
+                <br></br>
+                <p>
+                  Candidates can work on live projects, entry level programmer
+                  and maintaining software/application. Candidate seeking
+                  options in the teaching profession with an MCA degree is also
+                  an option. Candidates can apply for the post of a lecturer in
+                  reputed colleges/universities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* BBA START HERE  */}
+
+          <img
+            src="BBA3.jpeg"
+            className="col-md-12 col-sm-12"
+            height="350"
+          ></img>
+          <div className="row">
+            <div className="col-md-6 col-sm-12">
+              <div class="photo-widget-full">
+                <div class="figure">
+                  <h2 className="text-center mt-5 BCA">
+                    BBA Course Highlights
+                  </h2>
+                  <p className="text-white">
+                    The tabulated data below represents some major highlights of
+                    the course.
+                  </p>
+                  <table
+                    class="table table-striped style_table"
+                    style={{ height: "189px" }}
+                    width="510"
+                  >
+                    <tbody>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Course Level</strong>
+                        </td>
+                        <td className="text-white  table_data">
+                          Undergraduate
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Duration</strong>
+                        </td>
+                        <td className="text-white table_data">3 years</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Examination Type</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Semester System
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Eligibility</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Class 12 from a recognized university
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Admission Process</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Direct Admission
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Top recruiting organizations</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Sales and Marketing, Finance, HR etc.
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Top recruiting areas</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Sales and Marketing, Finance, HR etc.
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong> Course Fee</strong>
+                        </td>
+                        <td className="text-white table_data">40k / sem</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Average Starting Salary</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Rs 3 to 5 lacs
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12">
+              <h2 className="text-center mt-5 BCA">
+                Career{" "}
+                <span style={{ color: "rgba(11, 5, 180, 0.8)" }}>
+                  Prospects
+                </span>
+              </h2>
+              <div className="perspective text-white">
+                <br></br>
+                <p>
+                  For students who wish to build a career in the management or
+                  business fields after Class 12, BBA is the perfect option.
+                  With the cut-throat competition in the business and corporate
+                  world, one needs to have strong leadership and managerial
+                  skills if one wishes to have a flourishing career in the
+                  field. A student who pursues BBA after Class 12 will have a
+                  wide range of job opportunities available to him/her. BBA
+                  graduates can also opt for higher studies such as MBA to
+                  fast-track their career in the management and business field.
+                  Here are a few reasons why should one pursue a BBA course:
+                </p>
+
+                <ul>
+                  <li>
+                    A stepping stone in the careers of students who wish to
+                    excel in the business and management world.
+                  </li>
+                  <li>Better career opportunities.</li>
+                  <li>Good salary.</li>
+                  <li>
+                    A better understanding of market requirements and various
+                    global trends is required for different careers in this
+                    field.
+                  </li>
+                  <li>
+                    BBA course will impart the knowledge required to study
+                    further in the same field.
+                  </li>
+                  <li>
+                    Develop leadership, managerial, entrepreneurial and people
+                    skills.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* MBA SECTION START FROM HERE */}
+
+          <img
+            src="MBA3.jpg"
+            className="col-md-12 col-sm-12"
+            height="350"
+          ></img>
+          <div className="row">
+            <div className="col-md-6 col-sm-12">
+              <div class="photo-widget-full">
+                <div class="figure">
+                  <h2 className="text-center mt-5 BCA">
+                    MBA Course Highlights
+                  </h2>
+                  <p className="text-white">
+                    The tabulated data below represents some major highlights of
+                    the course.
+                  </p>
+                  <table
+                    class="table table-striped style_table"
+                    style={{ height: "189px" }}
+                    width="510"
+                  >
+                    <tbody>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Course Level</strong>
+                        </td>
+                        <td className="text-white  table_data">
+                          Post Graduation
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Duration</strong>
+                        </td>
+                        <td className="text-white table_data">2 years</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Examination Type</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Semester System
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Eligibility</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          UnderGrauate from a recognized university
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Admission Process</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Direct Admission
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Top recruiting organizations</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Sales and Marketing, Finance, HR etc.
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Top recruiting areas</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Sales, Marketing, Operations, Finance, Human
+                          Resources, Digital Marketing and Business Analytics.
+                        </td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong> Course Fee</strong>
+                        </td>
+                        <td className="text-white table_data">40k / sem</td>
+                      </tr>
+                      <tr className="table_row">
+                        <td className="table_heading">
+                          <strong>Average Starting Salary</strong>
+                        </td>
+                        <td className="text-white table_data">
+                          Rs 5 to 25 lacs
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12">
+              <h2 className="text-center mt-5 BCA">
+                Career{" "}
+                <span style={{ color: "rgba(11, 5, 180, 0.8)" }}>
+                  Prospects
+                </span>
+              </h2>
+              <div className="perspective text-white">
+                <br></br>
+                <p>
+                  The simplest answer to this question is – to fast track your
+                  career. Given the fact that we are inhabiting a world where
+                  there is a cut-throat competition in business world and job
+                  market, one needs to be equipped with managerial skills and
+                  leadership qualities to be able to contribute to the
+                  organisation in more than one way. If you are an expert in a
+                  field, knowing how to manage a business will be an added
+                  advantage. MBA degree is the key assistant in setting up own
+                  business or in switching career. Listed below are a few
+                  advantages of MBA degree:
+                </p>
+
+                <ul>
+                  <li>
+                  Better Career Opportunities
+                  </li>
+                  <li>Better Career Opportunities</li>
+                  <li>Developing Industry Network</li>
+                  <li>
+                  Develop Management Skills
+                  </li>
+                  <li>
+                  Develop Leadership Qualities
+                  </li>
+                  <li>
+                  Global Exposure of Business and Economy
+                  </li>
+                  <li>Entrepreneurial Skill Development</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
