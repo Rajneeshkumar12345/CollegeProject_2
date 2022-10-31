@@ -479,6 +479,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
 
       {/* First wrapper */}
       <section className="wrapper " style={{ backgroundColor: "#130b75" }}>
