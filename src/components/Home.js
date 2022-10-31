@@ -4,62 +4,14 @@ import SchoolIcon from "@mui/icons-material/School";
 import PublicTwoToneIcon from "@mui/icons-material/PublicTwoTone";
 import LanguageTwoToneIcon from "@mui/icons-material/LanguageTwoTone";
 import { Link } from "react-router-dom";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Home = () => {
   return (
     <>
-      {/* <div
-        id="carouselExampleControls"
-        className="carousel slide"
-        data-bs-ride="carousel"
-         data-interval="700"
-        style={{ backgroundColor: "#3b27ba" }}
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              src="/Slider1.png"
-              className="d-block w-100"
-              height="565"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item img-fluid">
-            <img
-              src="/Image1.png"
-              className="d-block w-100 "
-              height="565"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item img-fluid">
-            <img
-              src="/Slider2.png"
-              className="d-block w-100"
-              height="565"
-              alt="..."
-            />
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div> */}
 
       <div
         id="carouselExampleCaptions"
@@ -306,6 +258,30 @@ const Home = () => {
            <button data-toggle="modal" data-target="#myModal32" class="trigger_popup border-0"><span>Enquire Now</span></button> 
         </div>
     </li></ul></div> */}
+
+<ul id="social-sidebar">
+<li>
+    <a class="evernote"><WhatsAppIcon/><span>Whatsapp</span></a>
+  </li>
+  <li>
+    <a class="entypo-facebook"><span>Facebook</span></a>
+  </li>
+  {/* <li>
+    <a class="entypo-gplus"><span>Google+</span></a>
+  </li> */}
+  <li>
+    <a class="dribbble"><InstagramIcon/><span>Instagram</span></a>
+  </li>
+  <li>
+    <a class="dropbox"><LinkedInIcon/><span>Linkdeln</span></a>
+  </li>
+  <li>
+    <a class="github"><YouTubeIcon/><span>Youtube</span></a>
+  </li>
+  <li>
+    <a class="entypo-twitter"><span>Tweeter</span></a>
+  </li>
+</ul>
       {/* faculty container one */}
 
       <div className=" faculty">
@@ -479,7 +455,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
 
       {/* First wrapper */}
       <section className="wrapper " style={{ backgroundColor: "#130b75" }}>
