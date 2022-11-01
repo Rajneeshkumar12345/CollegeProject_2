@@ -757,7 +757,7 @@ const Home = () => {
               <h3 className="display-6 fw-bold text-white">Testimonials</h3>
               <hr
                 className="bg-white mb-4 mt-0 d-inline-block mx-auto"
-                style={{ width: "100px", height: "3px" }}
+                style={{ width: "230px", height: "5px" }}
               />
               <p className="p-text text-white">What our students are saying</p>
             </div>

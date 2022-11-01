@@ -6,7 +6,7 @@ const Courses = () => {
     <>
       <div
         className="courses"
-        style={{ backgroundColor: "rgba(128, 120, 120, 0.88)" }}
+        style={{ backgroundColor: "#06769e" }}
       >
         <h2 className="text-center course_heading py-3"> About Courses</h2>
 

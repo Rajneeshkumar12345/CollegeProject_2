@@ -156,7 +156,7 @@ export default function Footer() {
               style={{ backgroundColor: "rgba(9, 9, 9, 0.8)" }}
             >
               © 2022 Copyright:-
-              <a className="text-white" href="https://mdbootstrap.com/">
+              <a className="text-white" href="/">
                 IMST, Badarpur, New Delhi
               </a>
               <br></br>
